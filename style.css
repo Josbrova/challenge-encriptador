@@ -1,14 +1,49 @@
 *{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+    background-color: #F3F5FC;
+    font-family:"inter";
     font-style: normal;
-  }
-
+    margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
 main{
     display: flex;
+    gap: 10%;
 }
 
 .logo{
     margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.text-area{
+    margin-left: 150px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    text-transform: lowercase;
+    height: 300px;
+}
+
+.info{
+    margin-left: 150px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.botones{
+    display:flex;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.btn-encriptar{
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    height: 67px;
+    width: 328px;
 }
