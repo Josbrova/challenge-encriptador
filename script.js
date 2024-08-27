@@ -39,7 +39,7 @@ function desencriptar(stringDesencriptada){
 }
 
 function btnCopiar() {
-        const textoEncriptado = document.getElementById("mensaje");
+        const textoEncriptado = document.getElementById(".mensaje");
         copyText.select();
         copyText.setSelectionRange(0, 99999); 
         navigator.clipboard.writeText(mensaje.value);
