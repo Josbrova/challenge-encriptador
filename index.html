@@ -8,27 +8,26 @@
     <title>Encriptador de Texto</title>
 </head>
 <body>
-    <header class="logo"><img src="imagenes/Logo.png" alt="Logo de Alura"></header>
+    <header class="logo"><img src="imagenes/Logo.png" alt="Logo de Alura">ENCRIPTADOR DE TEXTO</header>
     <main>
-    <section class="seccion1">
+    <section class="colocar-texto">
         <textarea class="text-area" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
-        <div class="informacion">
-            <h6 class="info">Solo letras minúsculas y sin acentos</h6>
-                <img class="imag-adm" src="imagenes/exclamacion.png" alt="icono signo de admiración">
-        </div>
-        <div class="botones">
+            <div class="indicacion">   
+                <img class="indicacion__signo" src="imagenes/exclamacion.png" alt="icono de apertura de exclamacion">
+                <h6 class="indicacion__texto">Solo letras minúsculas y sin acentos</h6>
+            </div> 
+            <div class="botones">
             <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
             <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-        </div>
+            </div>
     </section>
-    <section class="seccion2">
+    <section class="texto-arrojado">
         <textarea class="mensaje" cols="20" rows="10"></textarea> 
-            <h2 class="no-encontrado">Ningún mensaje fue encontrado</h2> 
-            <h5 class="ingrese-text">Ingrese el texto que deseas encriptar o desencriptar</h5> 
             <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            <h2 class="no-encontrado">Ningún mensaje fue encontrado</h2> 
+            <h5 class="ingr-text">Ingrese el texto que deseas encriptar o desencriptar</h5> 
     </section>
 </main>
-
 <footer>
     <textarea class="pie-pag">José Buenrostro</textarea>
 </footer>

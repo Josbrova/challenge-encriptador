@@ -39,13 +39,13 @@ function desencriptar(stringDesencriptada){
 }
 
 function btnCopiar() {
-    const textoEncriptado = copiar(mensaje.value)
-    textArea.value = textoEncriptado
-    textArea.value = "";
-  
-}
+        const textoEncriptado = document.getElementById("mensaje");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); 
+        navigator.clipboard.writeText(mensaje.value);
+        alert("Copied the text: " + mensaje.value);
+      }
 
-function copiar(stringCopiar){
-    navigator.clipboard.writeText(mensaje.value);
-    stringCopiar = stringCopiar.toLowerCase()
-}
+
+
+
