@@ -50,7 +50,7 @@ function btnCopiar() {
     navigator.clipboard.writeText(copiar.value);
     
     // Alert the copied text
-    alert("Copied the text: " + copiar.value);
+    alert("Texto Copiado: " + copiar.value);
 }
 
 
