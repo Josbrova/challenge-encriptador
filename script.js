@@ -38,12 +38,19 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
-function btnCopiar(){
-    const copiar = document.getElementById("textoEncriptado");
+function btnCopiar() {
+    // Get the text field
+    var copiar = document.getElementById("copiado");
+  
+    // Select the text field
     copiar.select();
-    copiar.setSelectionRange(0,99999)
+    copiar.setSelectionRange(0, 99999); // For mobile devices
+  
+    // Copy the text inside the text field
     navigator.clipboard.writeText(copiar.value);
-    alert("Texto Copiado:" + copiar.value)
+    
+    // Alert the copied text
+    alert("Copied the text: " + copiar.value);
 }
 
 
