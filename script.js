@@ -38,13 +38,15 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
-function btnCopiar() {
-        const textoEncriptado = document.getElementById(".mensaje");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); 
-        navigator.clipboard.writeText(mensaje.value);
-        alert("Copied the text: " + mensaje.value);
-      }
+function btnCopiar(){
+    const copiar = document.getElementById("textoEncriptado");
+    copiar.select();
+    copiar.setSelectionRange(0,99999)
+    navigator.clipboard.writeText(copiar.value);
+    alert("Texto Copiado:" + copiar.value)
+}
+
+
 
 
 

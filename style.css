@@ -16,9 +16,11 @@ body{
    margin-bottom: 2%;
    font-size: 2rem;
    font-family: "inter";
+   font-style:italic;
    color: #6a6f74;
    display: flex;
-   gap: 23%;
+   gap: 61%;
+   align-items: center;
 }
 
 main{
@@ -94,6 +96,7 @@ main{
     color: #0A3871;
     border: transparent;
 }
+
 .btn-desencriptar:hover{
     background-color: #0A3871;
     color: white;
@@ -162,13 +165,12 @@ footer{
 
 .pie-pag{
     width: 100%;
-    text-align: right;
+    text-align: center;
     font-size: .75rem;
-    font-style: italic;
     font-weight: 600;
     border: none;
     background-color: #ccced6;
-    color: #0A3871;
+    color: #710a2c;
     padding: 10px;
 }
 
